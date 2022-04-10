@@ -5,7 +5,7 @@ import { MdCancel } from 'react-icons/md';
 import Image from 'next/image';
 
 import { filterData, getFilterValues } from '../utils/filterData';
-import { baseUrl, fetchApi } from '../utils/fetchApi';
+import { baseUrl, fetchApi } from '../utils/fetchapi';
 import noresult from '../assets/images/noresult.svg';
 
 export default function SearchFilters() {
