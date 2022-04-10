@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import {Flex, Box, Text, Button} from '@chakra-ui/react';
-import { baseUrl, fetchApi } from '../utils/fetchAPI';
-import Property from '../components/Property';
+import { baseUrl, fetchApi } from '../utils/fetchapi';
+import Property from '../components/property';
 
 export const Banner = ({ purpose, title1, title2, desc1, desc2, buttonText, linkName, imageUrl }) => (
   <Flex flexWrap='wrap' justifyContent='center' alignItems='center' m='10'>
